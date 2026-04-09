@@ -1,0 +1,26 @@
+{
+  "name": "mica-z-abogada",
+  "private": true,
+  "type": "module",
+  "imports": {
+    "#internal/nuxt/paths": "./nuxt-internal-paths.mjs"
+  },
+  "scripts": {
+    "build": "node --max-old-space-size=8192 node_modules/nuxt/bin/nuxt.mjs build",
+    "dev": "node --max-old-space-size=8192 node_modules/nuxt/bin/nuxt.mjs dev",
+    "generate": "node --max-old-space-size=8192 node_modules/nuxt/bin/nuxt.mjs generate",
+    "preview": "nuxt preview",
+    "start": "node .output/server/index.mjs",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1",
+    "nuxt": "^3.14.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^25.5.2"
+  }
+}
