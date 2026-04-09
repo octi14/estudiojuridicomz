@@ -34,7 +34,3 @@ npm run preview
 ```
 
 Para desplegar: `npm run generate` si querés sitio estático, o usar el output de `npm run build` con un servidor Node (Nuxt en modo SSR).
-
-## Repositorio
-
-El desarrollo activo vive en [octi14/estudiojuridicomz](https://github.com/octi14/estudiojuridicomz) (repo público personal). Una copia anterior existía bajo la organización en GitHub; si aún existe, conviene archivarla o dejar un aviso allí apuntando a este repositorio.
