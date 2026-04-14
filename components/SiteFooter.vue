@@ -25,7 +25,7 @@
             <ul class="footer-contact-list">
               <li class="footer-contact-item">
                 <i class="bi bi-telephone-fill" aria-hidden="true" />
-                <a href="tel:02255507767">02255507767</a>
+                <a href="https://wa.me/5492255507767" target="_blank" rel="noopener noreferrer">02255507767</a>
               </li>
               <li class="footer-contact-item">
                 <i class="bi bi-envelope" aria-hidden="true" />

@@ -30,8 +30,8 @@
             Acompañamiento a personas y empresas en la protección de sus bienes y la resolución de conflictos familiares con agilidad.
           </p>
           <div class="home-value-actions">
-            <NuxtLink to="/#contacto" class="btn btn-primary btn-block">Contactarme</NuxtLink>
-            <NuxtLink to="/#turnos" class="btn btn-secondary btn-block">Solicitar turno</NuxtLink>
+            <NuxtLink to="/#turnos" class="btn btn-primary btn-block">Solicitar turno</NuxtLink>
+            <a href="https://wa.me/5492255507767" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">Contactate</a>
           </div>
         </div>
       </div>
