@@ -11,9 +11,12 @@
     "generate": "node --max-old-space-size=8192 node_modules/nuxt/bin/nuxt.mjs generate",
     "preview": "nuxt preview",
     "start": "node .output/server/index.mjs",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "generate:og": "node scripts/generate-og.mjs"
   },
   "dependencies": {
+    "@nuxtjs/robots": "^6.0.7",
+    "@nuxtjs/sitemap": "^8.0.12",
     "bootstrap-icons": "^1.13.1",
     "nuxt": "^3.14.0",
     "vue": "^3.5.0",
@@ -21,6 +24,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@types/node": "^25.5.2"
+    "@types/node": "^25.5.2",
+    "sharp": "^0.34.5"
   }
 }
