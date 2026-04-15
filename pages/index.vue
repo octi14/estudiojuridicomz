@@ -49,7 +49,13 @@
             class="practice-card"
           >
             <div class="practice-card-head">
-              <img :src="iconBalanca" alt="" class="practice-card-icon-img" width="40" height="40">
+              <img
+                :src="iconBalanca"
+                :alt="`Ícono — ${area.title}`"
+                class="practice-card-icon-img"
+                width="40"
+                height="40"
+              >
               <h3 class="practice-card-title">
                 <template v-if="area.titleMobileLines">
                   <span class="practice-card-title__split">{{ area.titleMobileLines[0] }}<br>{{ area.titleMobileLines[1] }}</span>

@@ -6,7 +6,7 @@
           <NuxtLink to="/" class="header-logo" aria-label="Inicio — Estudio Jurídico MZ & ASOC.">
             <img
               :src="logoHeader"
-              alt=""
+              alt="Estudio Jurídico MZ & ASOC."
               class="header-logo-img"
               width="120"
               height="48"

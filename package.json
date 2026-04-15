@@ -12,7 +12,8 @@
     "preview": "nuxt preview",
     "start": "node .output/server/index.mjs",
     "postinstall": "nuxt prepare",
-    "generate:og": "node scripts/generate-og.mjs"
+    "generate:og": "node scripts/generate-og.mjs",
+    "generate:apple-touch": "node scripts/generate-apple-touch.mjs"
   },
   "dependencies": {
     "@nuxtjs/robots": "^6.0.7",

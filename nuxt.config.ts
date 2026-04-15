@@ -40,6 +40,11 @@ export default defineNuxtConfig({
         { name: 'description', content: seoSite.description },
       ],
       link: [
+        {
+          rel: 'apple-touch-icon',
+          href: '/apple-touch-icon.png',
+          sizes: '180x180',
+        },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {
