@@ -6,9 +6,11 @@ export const seoSite = {
   /** Título de la pestaña del navegador (el que había antes del trabajo SEO). */
   documentTitle: 'Estudio Jurídico MZ & ASOC.',
   /** Título para Open Graph / Twitter y alineado con la meta description SEO. */
-  title: 'Abogada en Villa Gesell | Sucesiones y Contratos | Estudio Jurídico MZ',
+  title: 'Abogada Sucesiones Villa Gesell | Herencias y Contratos | Estudio Jurídico MZ',
   description:
-    'Asesoramiento jurídico en Villa Gesell: sucesiones, contratos, derecho civil, familia y derecho digital. Atención con turno previo.',
+    'Asesoramiento en sucesiones e herencias en Villa Gesell y Provincia de Buenos Aires. Contratos, derecho civil y derecho digital. Atención con turno previo.',
+  serviceType: ['Sucesiones e herencias', 'Contratos', 'Derecho civil', 'Derecho digital'] as const,
+  knowsAbout: ['Sucesiones', 'Herencias', 'Derecho sucesorio', 'Contratos', 'Derecho civil'] as const,
   organizationName: 'Estudio Jurídico MZ & ASOC.',
   attorneyName: 'Dra. Micaela Zulkovski',
   email: 'micaelazulkovski@gmail.com',
