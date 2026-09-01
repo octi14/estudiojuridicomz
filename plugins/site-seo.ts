@@ -46,6 +46,7 @@ export default defineNuxtPlugin(() => {
         '@type': 'AdministrativeArea',
         name: 'Provincia de Buenos Aires',
       },
+      serviceType: [...seoSite.serviceType],
     },
     {
       '@type': 'Attorney',
@@ -55,6 +56,7 @@ export default defineNuxtPlugin(() => {
       email: seoSite.email,
       telephone: seoSite.telephoneE164,
       sameAs: [seoSite.instagramUrl],
+      knowsAbout: [...seoSite.knowsAbout],
     },
   ]
 
@@ -83,7 +85,7 @@ export default defineNuxtPlugin(() => {
     ogImageSecureUrl: ogImage,
     ogImageWidth: 1200,
     ogImageHeight: 630,
-    ogImageAlt: seoSite.organizationName,
+    ogImageAlt: `${seoSite.organizationName} — Sucesiones e herencias en Villa Gesell`,
     twitterCard: 'summary_large_image',
     twitterTitle: seoSite.title,
     twitterDescription: seoSite.description,
